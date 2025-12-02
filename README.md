@@ -10,7 +10,12 @@ This repository demonstrates a production-grade EKS platform using:
 - GitHub Actions CI for Terraform & K8s linting
 
 ## Architecture Diagram
-(see docs/architecture-diagram.png)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/merps/merps/assets/diagrams/eks-platform-blueprint-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/merps/merps/blob/main/assets/diagrams/eks-platform-blueprint-light.svg">
+  <img alt="EKS + NGINX KIC Architecture" src="https://github.com/merps/merps/assets/diagrams/eks-platform-blueprint-light.svg">
+</picture>
 
 ## Key Features
 - Modular Terraform
